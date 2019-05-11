@@ -7,8 +7,8 @@ const auth0Domain = process.env.AUTH0_DOMAIN || config.auth0.domain
 const authClient = jwksClient({
   cache: true,
   jwksUri: `https://${auth0Domain}/.well-known/jwks.json`,
-  audience: 'universe-theater',
-  issuer: 'https://adobot.auth0.com/',
+  audience: 'whoop',
+  issuer: `https://${auth0Domain}/`,
 })
 
 /* Check authorization JWT */
