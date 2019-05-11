@@ -2,14 +2,14 @@
 const config = {
   // auth0 setup
   auth0: {
-    domain: 'adobot.auth0.com',
-    clientId: 'DJmrZzLRdbvgeRu2KSWuRAS4ncdLQMij',
+    domain: 'whoop.eu.auth0.com',
+    clientId: 'WuGOvUiz6qqha5joKBsvAZzLqjwtCJ4i',
     callbackPath: '/callback'
   },
   algolia: {
-    appId: 'latency',
-    apiKey: '56f24e4276091e774e8157fe4b8b11f6',
-    index: 'movies'
+    appId: '2N3HKL3FCG',
+    apiKey: '5e909929c7bf15d5c9361977149fd941',
+    index: 'videos'
   },
   // api endpoints
   api: {
