@@ -9,7 +9,7 @@ export default function WebAuth() {
   return new auth0.WebAuth({
     domain: config.auth0.domain,
     clientID: config.auth0.clientId,
-    audience: `whoop`,
+    audience: `https://whoop.eu.auth0.com/api/v2/`,
     responseType: 'token id_token',
     scope: 'openid email profile'
   })

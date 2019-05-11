@@ -7,7 +7,7 @@ const auth0Domain = process.env.AUTH0_DOMAIN || config.auth0.domain
 const authClient = jwksClient({
   cache: true,
   jwksUri: `https://${auth0Domain}/.well-known/jwks.json`,
-  audience: 'whoop',
+  audience: 'https://whoop.eu.auth0.com/api/v2/',
   issuer: `https://${auth0Domain}/`,
 })
 
