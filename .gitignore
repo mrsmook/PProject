@@ -16,7 +16,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-/.idea
+.idea/*
 
 
 npm-debug.log*
@@ -24,3 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 .idea/workspace.xml
 .idea/workspace.xml
+.idea/*
