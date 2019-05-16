@@ -9,7 +9,7 @@ const config = {
   algolia: {
     appId: '2N3HKL3FCG',
     apiKey: '5e909929c7bf15d5c9361977149fd941',
-    index: 'videos'
+    index: 'Clip'
   },
   // api endpoints
   api: {
